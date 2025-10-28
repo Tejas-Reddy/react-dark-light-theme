@@ -1,0 +1,36 @@
+[theme-data="light"] {
+    --bg-color: #FFF;
+    --text-color: black;
+}
+
+[theme-data="dark"] {
+    --bg-color: black;
+    --text-color: #FFF;
+}
+
+.header-con {
+    height: 4vh;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--bg-color);
+}
+
+.header-title {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.page {
+    padding: 24px;
+    height: 96vh;
+    background: var(--bg-color);
+}
+
+.page-title {
+    font-size: larger;
+    color: var(--text-color);
+}
